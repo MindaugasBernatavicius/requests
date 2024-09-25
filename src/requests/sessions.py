@@ -587,6 +587,7 @@ class Session(SessionRedirectMixin):
         }
         send_kwargs.update(settings)
         resp = self.send(prep, **send_kwargs)
+        print(">>>>>>>>")
 
         return resp
 
